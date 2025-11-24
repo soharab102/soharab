@@ -207,7 +207,7 @@ export const Hero: React.FC = () => {
                 {/* Image */}
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-2xl shadow-blue-500/50">
                   <img
-                    src="./public/profile/profile-photo.jpeg"
+                    src="/profile/profile-photo.jpeg"
                     alt="MD Mohimul Alam"
                     className="w-full h-full object-cover"
                     onError={(e) => {
