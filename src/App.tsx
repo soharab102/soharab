@@ -48,7 +48,12 @@ const App: React.FC = () => {
               className="text-2xl font-bold cursor-pointer"
             >
               <a href="#home">
-                <img src="/logo.jpeg" alt="Logo" className="h-8 w-8" />
+                <img
+                    src="/profile/profile-photo.jpeg"
+                    alt="MD Mohimul Alam"
+                    className="w-full h-full object-cover"
+                  style={{ width: '10px', height: '10px', borderRadius: '50%' }}  
+                  />
               </a>
             </motion.div>
 
