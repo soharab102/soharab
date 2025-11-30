@@ -1,6 +1,4 @@
-// src/utils/constants.ts
-
-import { Project, Experience, Certification, Skill } from '.';
+import { Project, Experience, Certification, Skill } from '../types';
 
 export const PROJECTS: Project[] = [
   {
@@ -40,7 +38,7 @@ export const PROJECTS: Project[] = [
     image: '/projects/perfume.jpg',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'TailwindCSS'],
     github: 'https://github.com/Md-Mohimul-Alam/Perfume',
-    liveUrl: 'https://luxeperfume.netlify.app',
+    liveDemo: 'https://luxeperfume.netlify.app',
     featured: true,
     category: 'fullstack',
   },
