@@ -1,6 +1,6 @@
 // src/utils/constants.ts
 
-import { Project, Experience, Certification, Skill } from '../types';
+import { Project, Experience, Certification, Skill } from '.';
 
 export const PROJECTS: Project[] = [
   {
@@ -30,6 +30,17 @@ export const PROJECTS: Project[] = [
     image: '/projects/health-iot.jpg',
     technologies: ['ESP32', 'Hyperledger Fabric', 'React', 'MAX30102', 'AD8232'],
     github: 'https://github.com/Md-Mohimul-Alam',
+    featured: true,
+    category: 'fullstack',
+  },
+  {
+    id: 'perfume-ecommerce',
+    title: 'Perfume E-commerce Platform',
+    description: 'Full-stack perfume e-commerce application with product catalog, shopping cart, user authentication, and admin dashboard for inventory management.',
+    image: '/projects/perfume.jpg',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'TailwindCSS'],
+    github: 'https://github.com/Md-Mohimul-Alam/Perfume',
+    liveUrl: 'https://luxeperfume.netlify.app',
     featured: true,
     category: 'fullstack',
   },
@@ -82,12 +93,12 @@ export const SKILLS: Skill[] = [
   },
   {
     category: 'Web3',
-    skills: ['Web3.js', 'Hyperledger Fabric SDK', 'Hyperledger Composer','hyperledger Arise Framework','Hyperledger Fabric CA'],
+    skills: ['Solidity', 'Web3.js', 'Truffle', 'Hardhat'],
     proficiency: 80,
   },
   {
     category: 'DevOps',
-    skills: ['Docker', 'Git', 'CI/CD', 'Linux'],
+    skills: ['Docker', 'Git', 'CI/CD', 'Linux', 'AWS'],
     proficiency: 78,
   },
   {
@@ -130,7 +141,7 @@ export const CERTIFICATIONS: Certification[] = [
     name: 'HTML Essentials',
     issuer: 'Issued by Cisco',
     date: '2025',
-    badgeUrl: 'https://images.credly.com/images/b1c17d0c-e76b-45fc-9b28-87b01ae1caf3/blob.png',
+    badgeUrl: 'https://images.credly.com/size/680x680/images/b1c17d0c-e76b-45fc-9b28-87b01ae1caf3/blob.png',
     credlyUrl: 'https://www.credly.com/badges/60842b21-4c21-4910-acef-3cf4da87c29a',
     category: 'Development',
   },
