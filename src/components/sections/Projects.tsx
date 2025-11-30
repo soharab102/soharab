@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ProjectCard } from '../common/ProjectCard';
 import { PROJECTS } from '../../utils/constants';
 import { Project } from '../../types';
-import { staggerContainer, fadeInUp } from '../../utils/animations';
+import { staggerContainer } from '../../utils/animations'; // Removed fadeInUp import
 
 type Category = 'all' | 'blockchain' | 'frontend' | 'fullstack';
 
