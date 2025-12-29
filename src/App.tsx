@@ -204,10 +204,10 @@ const App: React.FC = () => {
             >
               <h3 className="mb-4 text-2xl font-bold">
                 <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                  MD Mohimul Alam
+                  Soharab Hossain
                 </span>
               </h3>
-              <p className="text-slate-400">Frontend Developer | Blockchain Researcher</p>
+              <p className="text-slate-400">Frontend Developer | Designer</p>
             </motion.div>
 
             {/* Quick Links */}
@@ -269,9 +269,9 @@ const App: React.FC = () => {
           {/* Divider */}
           <div className="border-t border-slate-800 py-8">
             <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-              <p className="text-slate-500">© 2025 MD Mohimul Alam. All rights reserved.</p>
+              <p className="text-slate-500">© 2025 Soharab Hossain. All rights reserved.</p>
               <p className="text-slate-500">
-                Designed & Built with React • TypeScript • Three.js
+                Designed & Built 
               </p>
             </div>
           </div>

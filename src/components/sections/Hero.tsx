@@ -209,7 +209,7 @@ export const Hero: React.FC = () => {
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-2xl shadow-blue-500/50">
                   <img
                     src="/profile/profile-photo.jpeg"
-                    alt="MD Mohimul Alam"
+                    alt="Soharab Hossain"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       // Fallback if image doesn't exist

@@ -1,26 +1,8 @@
 import { Project, Experience, Certification, Skill } from '../types';
 
 export const PROJECTS: Project[] = [
-  {
-    id: 'blockchain-voting',
-    title: 'Blockchain-Based Voting System',
-    description: 'Enterprise-grade voting platform with 4 organizations, secure encrypted voting, and real-time auditing. Implemented Zero-Knowledge Proofs and Threshold Encryption.',
-    image: '/projects/voting.jpg',
-    technologies: ['Hyperledger Fabric', 'React', 'Node.js', 'Zero-Knowledge Proofs'],
-    github: 'https://github.com/Md-Mohimul-Alam/blockchain-voting-system',
-    featured: true,
-    category: 'blockchain',
-  },
-  {
-    id: 'healthcare-network',
-    title: 'Healthcare Data Exchange Network',
-    description: 'Private blockchain for 3 healthcare institutions with granular RBAC and real-time dashboard. Ensured 98% data consistency in clinical simulations.',
-    image: '/projects/healthcare.jpg',
-    technologies: ['Hyperledger Fabric', 'React', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/Md-Mohimul-Alam/HMS',
-    featured: true,
-    category: 'blockchain',
-  },
+
+
   {
     id: 'health-monitoring',
     title: 'ESP32-Based Health Monitoring System',
@@ -31,17 +13,7 @@ export const PROJECTS: Project[] = [
     featured: true,
     category: 'fullstack',
   },
-  {
-    id: 'perfume-ecommerce',
-    title: 'Perfume E-commerce Platform',
-    description: 'Full-stack perfume e-commerce application with product catalog, shopping cart, user authentication, and admin dashboard for inventory management.',
-    image: '/projects/perfume.jpg',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'TailwindCSS'],
-    github: 'https://github.com/Md-Mohimul-Alam/Perfume',
-    liveDemo: 'https://luxeperfume.netlify.app',
-    featured: true,
-    category: 'fullstack',
-  },
+  
   {
     id: 'expense-tracker',
     title: 'Personal Expense Tracker',
@@ -63,48 +35,36 @@ export const PROJECTS: Project[] = [
     featured: false,
     category: 'fullstack',
   },
-  {
-    id: 'santaran',
-    title: 'Santaran Project',
-    description: 'Responsive web platform for multidisciplinary artist-run organization with interactive dashboards and mobile-first design.',
-    image: '/projects/santaran.jpg',
-    technologies: ['Nuxt.js', 'Vue.js', 'TailwindCSS'],
-    featured: false,
-    category: 'frontend',
-  },
+
 ];
 
 export const SKILLS: Skill[] = [
+    {
+    category: 'Language',
+    skills: ['C++','Java','Html', 'CSS'],
+    proficiency: 95,
+  },
   {
     category: 'Frontend',
-    skills: ['React.js', 'Next.js', 'TypeScript', 'TailwindCSS', 'Framer Motion', 'Three.js'],
+    skills: ['Html', 'CSS'],
     proficiency: 95,
   },
   {
     category: 'Backend',
-    skills: ['Node.js', 'Express.js', 'GraphQL', 'REST API', 'MongoDB', 'MySQL'],
+    skills: ['MySQL'],
     proficiency: 85,
   },
   {
-    category: 'Blockchain',
-    skills: ['Hyperledger Fabric', 'Smart Contracts', 'Zero-Knowledge Proofs', 'Threshold Encryption'],
+    category: 'Graphic Designer',
+    skills: ['Illustrator', 'Figma', 'Photoshop'],
     proficiency: 90,
-  },
-  {
-    category: 'Web3',
-    skills: ['Solidity', 'Web3.js',],
-    proficiency: 60,
   },
   {
     category: 'DevOps',
     skills: ['Docker', 'Git', 'CI/CD', 'Linux', 'AWS'],
     proficiency: 78,
   },
-  {
-    category: 'IoT & Embedded',
-    skills: ['ESP32', 'Arduino', 'Embedded Systems', 'Sensor Integration'],
-    proficiency: 82,
-  },
+
 ];
 
 export const CERTIFICATIONS: Certification[] = [
