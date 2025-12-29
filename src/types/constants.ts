@@ -202,11 +202,12 @@ export const EXPERIENCE: Experience[] = [
 ];
 
 export const CONTACT = {
-  email: 'mohimreza1234@gmail.com',
-  github: 'https://github.com/Md-Mohimul-Alam',
-  linkedin: 'https://www.linkedin.com/in/md-mohimul-alam-a5736821a/',
-  phone: '01782152268',
-  credly: 'https://www.credly.com/users/mohim-reza',
+  email: 'mdsoharab340@gmail.com',
+  github: 'https://github.com/soharab102',
+  linkedin: 'https://www.linkedin.com/in/s0harab-h0ssain-/',
+  phone: '01877967912',
+  credly: 'https://www.behance.net/s0harab',
+  behance: 'https://www.behance.net/s0harab',
 };
 
 export const SOCIAL_LINKS = [

@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "3D Interactive Portfolio for MD Mohimul Alam - Blockchain & Frontend Developer",
-  "author": "MD Mohimul Alam <mohimreza1234@gmail.com>",
+  "description": "3D Interactive Portfolio for Soharab Hossain - Frontend Developer",
+  "author": "Soharab Hossain <mdsoharab340@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vite",

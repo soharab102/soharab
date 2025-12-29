@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
             >
               Hi, I'm{' '}
               <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                MD Mohimul Alam
+                Soharab Hossain
               </span>
             </motion.h1>
 
@@ -69,7 +69,7 @@ export const Hero: React.FC = () => {
               <p className="text-2xl font-semibold text-slate-300 md:text-3xl">
                 <span className="text-blue-400">Frontend Developer</span>
                 <span className="text-slate-500 mx-2">|</span>
-                <span className="text-purple-400">Blockchain Researcher</span>
+                <span className="text-purple-400">Designer</span>
               </p>
             </motion.div>
 
@@ -80,8 +80,9 @@ export const Hero: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="mb-8 text-lg text-slate-400 max-w-xl mx-auto lg:mx-0"
             >
-              Crafting innovative solutions with <span className="text-blue-400 font-semibold">React</span>, <span className="text-purple-400 font-semibold">TypeScript</span>, and <span className="text-pink-400 font-semibold">Hyperledger Fabric</span>. 
-              Passionate about building secure, scalable applications that bridge traditional systems with blockchain technology.
+               <span className="text-blue-400 font-semibold">CSE student</span>, <span className="text-purple-400 font-semibold">Graphic Designer</span>, <span className="text-pink-400 font-semibold">Learning Web Development <br></br></span>
+                 Focused on creativity, clean design, and continuous learning
+
             </motion.p>
 
             {/* CTA Buttons */}

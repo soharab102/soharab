@@ -67,19 +67,19 @@ const PreLoader: React.FC<PreLoaderProps> = ({ onComplete }) => {
                 className="text-6xl font-bold text-pink-500 animate-fade-in"
                 style={{ animationDelay: '0.8s' }}
               >
-                MO
+                SO
               </span>
               <span 
                 className="text-6xl font-bold text-pink-500 animate-fade-in"
                 style={{ animationDelay: '0.9s' }}
               >
-                H
+                HA
               </span>
               <span 
                 className="text-6xl font-bold text-blue-500 animate-fade-in"
                 style={{ animationDelay: '1.0s' }}
               >
-                IM
+                RAB
               </span>
             </div>
           </div>
